@@ -39,6 +39,9 @@ public class ModBlockIds {
     public static final ResourceKey<Block> PRISM_PLANKS = create("prism_planks");
     public static final ResourceKey<Block> SKY_PORTAL_BLOCK = create("sky_portal_block");
 
+    // --- Dragon City Dimension Blocks ---
+    public static final ResourceKey<Block> MAG_BOOST_PAD = create("mag_boost_pad");
+
     public static ResourceKey<Block> create(String name) {
         return ResourceKey.create(Registries.BLOCK, MineOrigins.id(name));
     }

@@ -7,3 +7,4 @@ ask me for rate and quantity
 - [x] add a new dimension called sky dimension with islands floating in the sky, generate biomes, terrain and structures for it. add resources, mobs, plants, trees and items, also add a new ore called sky metal and sky blocks 
 - [x] generate readme.md
 - [x] add furnace recipes if not added
+- [x] add Dragon City custom dimension (Dragon Booster inspired megastructure with Sun City, Mid City, Down City, Old City vertical strata, custom noise router, and Draconium mag-boost raceway pads)

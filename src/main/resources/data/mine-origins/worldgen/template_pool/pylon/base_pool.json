@@ -1,0 +1,15 @@
+{
+  "name": "mine-origins:pylon/base_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "mine-origins:pylon/conduit_pillar_section",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

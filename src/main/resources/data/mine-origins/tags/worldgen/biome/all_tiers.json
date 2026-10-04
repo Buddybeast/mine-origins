@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mine-origins:sun_city",
+    "mine-origins:mid_city",
+    "mine-origins:down_city",
+    "mine-origins:old_city"
+  ]
+}

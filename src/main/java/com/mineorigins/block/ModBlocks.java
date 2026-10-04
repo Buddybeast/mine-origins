@@ -285,6 +285,20 @@ public class ModBlocks {
                     .sound(SoundType.GLASS)
     );
 
+    // --- Dragon City Raceway Blocks ---
+    public static final Block MAG_BOOST_PAD = registerWithItem(
+            ModBlockIds.MAG_BOOST_PAD,
+            ModItemIds.MAG_BOOST_PAD,
+            MagBoostPadBlock::new,
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_CYAN)
+                    .requiresCorrectToolForDrops()
+                    .strength(5.0f, 6.0f)
+                    .friction(0.98f)
+                    .lightLevel(state -> 12)
+                    .sound(SoundType.COPPER)
+    );
+
     public static Block registerWithItem(
             ResourceKey<Block> blockKey,
             ResourceKey<Item> itemKey,

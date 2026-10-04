@@ -94,6 +94,9 @@ public class ModItems {
                 output.accept(ModBlocks.PRISM_LEAVES);
                 output.accept(ModBlocks.PRISM_PLANKS);
 
+                // Dragon City Suite
+                output.accept(ModBlocks.MAG_BOOST_PAD);
+
                 // Eagle
                 output.accept(com.mineorigins.entity.ModEntities.EAGLE_SPAWN_EGG);
 
