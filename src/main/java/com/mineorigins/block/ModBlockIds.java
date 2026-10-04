@@ -41,6 +41,7 @@ public class ModBlockIds {
 
     // --- Dragon City Dimension Blocks ---
     public static final ResourceKey<Block> MAG_BOOST_PAD = create("mag_boost_pad");
+    public static final ResourceKey<Block> DRAGON_CITY_PORTAL_BLOCK = create("dragon_city_portal_block");
 
     public static ResourceKey<Block> create(String name) {
         return ResourceKey.create(Registries.BLOCK, MineOrigins.id(name));

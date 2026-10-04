@@ -299,6 +299,17 @@ public class ModBlocks {
                     .sound(SoundType.COPPER)
     );
 
+    public static final Block DRAGON_CITY_PORTAL_BLOCK = registerWithItem(
+            ModBlockIds.DRAGON_CITY_PORTAL_BLOCK,
+            ModItemIds.DRAGON_CITY_PORTAL_BLOCK,
+            DragonCityPortalBlock::new,
+            BlockBehaviour.Properties.of()
+                    .noCollision()
+                    .lightLevel(state -> 14)
+                    .strength(-1.0f, 3600000.0f)
+                    .sound(SoundType.GLASS)
+    );
+
     public static Block registerWithItem(
             ResourceKey<Block> blockKey,
             ResourceKey<Item> itemKey,

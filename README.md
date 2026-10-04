@@ -90,6 +90,45 @@
 
 ---
 
+## 🐉 The Dragon City Dimension — Megastructure of Draconium
+
+Inspired by the animated universe of *Dragon Booster*, **Dragon City** is a vertically stratified megastructure extending across expanded world heights (`Y = -64` to `Y = 320+`). Built upon ancient subterranean ruins and rising into aerodynamic spires, the dimension features layered horizontal shelves interconnected by suspended raceways, mega-pylons, and Draconium energy conduits.
+
+### 🏙️ Vertical Tiers & Strata
+1. **Sun City (Y = 256 to 384)**:
+   - **Theme**: Aerodynamic spires, pristine racing loops, open skies.
+   - **Palette**: Smooth Quartz, White & Cyan Concrete, Sea Lanterns, Light Blue Glass, Iron Blocks.
+2. **Mid City & Work Town (Y = 128 to 255)**:
+   - **Theme**: Dense industrial urban high-rises, garages, refineries, and mag-rails.
+   - **Palette**: Stone Bricks, Smooth Stone, Polished Andesite, Copper, Redstone conduits, Iron Bars.
+3. **Down City & Shadowtown (Y = 0 to 127)**:
+   - **Theme**: The underbelly beneath the mega-foundations, perpetual gloom, steam conduits, neon graffiti.
+   - **Palette**: Weathered Copper, Deepslate, Shroomlights, Chains, Exposed Grates.
+4. **Old City & The Chasm (Y = -64 to -1)**:
+   - **Theme**: Ancient buried ruins, subterranean bone yards, raw draconium fissures.
+   - **Palette**: Polished Blackstone, Basalt, Bone Blocks, Sculk, Soul Sand.
+
+### ⚡ Mechanics: Draconium Mag-Boost Pads
+- **High-Velocity Raceways**: Integrated racing tracks throughout the dimension feature **Draconium Mag-Boost Pads**.
+- **Physics**: Sprinting or running across these pads applies high slipperiness (`friction: 0.98`), a burst of **Speed IV**, and an immediate forward velocity surge along your facing direction.
+
+### 🚪 How to Enter Dragon City
+1. **Craft a Draconium Core**:
+   - Combine `4x Gold Ingots`, `4x Polished Blackstone`, and `1x Ender Pearl` on a Crafting Table.
+     ```
+     [ Gold Ingot ] [ Polished Blackstone ] [ Gold Ingot ]
+     [ Polished Blackstone ] [ Ender Pearl ] [ Polished Blackstone ]
+     [ Gold Ingot ] [ Polished Blackstone ] [ Gold Ingot ]
+     ```
+2. **Open the Portal**:
+   - Place down **Smooth Stone**.
+   - Right-click the **Smooth Stone** with the **Draconium Core**.
+   - An ethereal **golden-black void portal** will erupt with electric sparks and dark smoke particles.
+3. **Teleportation**:
+   - Step into the portal to arrive directly at the suspended **Mid City Tier** (`Y = 200`), landing on a reinforced Smooth Stone and Polished Blackstone arrival platform with a return portal to the Overworld.
+
+---
+
 ## 📦 Building and Running
 
 ### Requirements

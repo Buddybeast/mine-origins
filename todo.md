@@ -8,3 +8,4 @@ ask me for rate and quantity
 - [x] generate readme.md
 - [x] add furnace recipes if not added
 - [x] add Dragon City custom dimension (Dragon Booster inspired megastructure with Sun City, Mid City, Down City, Old City vertical strata, custom noise router, and Draconium mag-boost raceway pads)
+- [x] add Smooth Stone golden-black portal and Draconium Core igniter for Dragon City dimension

@@ -43,6 +43,9 @@ public class ModItems {
     public static final Item AETHERIAL_KEY = register(ModItemIds.AETHERIAL_KEY, AetherialKeyItem::new, new Item.Properties().durability(64));
     public static final Item DREAMCATCHER_WAND = register(ModItemIds.DREAMCATCHER_WAND, DreamcatcherWandItem::new, new Item.Properties().durability(128));
 
+    // Dragon City Items
+    public static final Item DRACONIUM_CORE = register(ModItemIds.DRACONIUM_CORE, DraconiumCoreItem::new, new Item.Properties().durability(64));
+
     public static final ResourceKey<CreativeModeTab> MINE_ORIGINS_CREATIVE_TAB_KEY = ResourceKey.create(
             BuiltInRegistries.CREATIVE_MODE_TAB.key(), MineOrigins.id("creative_tab"));
 
@@ -96,6 +99,8 @@ public class ModItems {
 
                 // Dragon City Suite
                 output.accept(ModBlocks.MAG_BOOST_PAD);
+                output.accept(ModBlocks.DRAGON_CITY_PORTAL_BLOCK);
+                output.accept(ModItems.DRACONIUM_CORE);
 
                 // Eagle
                 output.accept(com.mineorigins.entity.ModEntities.EAGLE_SPAWN_EGG);

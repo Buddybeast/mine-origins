@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "pattern": [
+    "GBG",
+    "BEB",
+    "GBG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mine-origins:draconium_core"
+  }
+}
