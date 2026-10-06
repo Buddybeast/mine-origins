@@ -27,8 +27,7 @@
     "minecraft:gameplay/respawn_anchor_works": true,
     "minecraft:visual/ambient_light_color": "#1a2a40",
     "minecraft:visual/fog_color": "#0a1020",
-    "minecraft:visual/sky_color": "#0d1b2a",
-    "minecraft:visual/sky_effects": "minecraft:the_end"
+    "minecraft:visual/sky_color": "#0d1b2a"
   },
   "coordinate_scale": 1.0,
   "default_clock": "minecraft:overworld",

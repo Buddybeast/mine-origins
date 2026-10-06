@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
-      "item": "minecraft:gold_ingot"
-    },
-    "B": {
-      "item": "minecraft:polished_blackstone"
-    },
-    "E": {
-      "item": "minecraft:ender_pearl"
-    }
+    "G": "minecraft:gold_ingot",
+    "B": "minecraft:polished_blackstone",
+    "E": "minecraft:ender_pearl"
   },
   "pattern": [
     "GBG",

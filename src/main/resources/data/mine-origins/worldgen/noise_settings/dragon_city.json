@@ -29,20 +29,7 @@
       "to_value": -1.0
     },
     "ridges": 0.0,
-    "initial_density_without_jaggedness": {
-      "type": "minecraft:add",
-      "argument1": -0.2,
-      "argument2": {
-        "type": "minecraft:mul",
-        "argument1": 0.8,
-        "argument2": {
-          "type": "minecraft:noise",
-          "noise": "minecraft:cave_cheese",
-          "xz_scale": 1.5,
-          "y_scale": 0.3
-        }
-      }
-    },
+    "preliminary_surface_level": 0.0,
     "final_density": {
       "type": "minecraft:squeeze",
       "argument": {
